@@ -1,2 +1,86 @@
-/**/
+ @font-face {
+        font-family: 'Overpass';
+        src: url('/www/css/MadimiOne-Regular.ttf') format('truetype');
+    }
+    h1{
+        background-image: linear-gradient(rgb(146, 0, 0), rgb(233, 233, 233));
+        color: white;
+    }
+    body {
+        font-family: 'Overpass', sans-serif;
+        background-color: rgb(233, 233, 233);
+      background-size: cover;
+      background-position: left; 
+      background-repeat: no-repeat;
+        margin: 0;
+    }
+    h6 {
+        color: rgb(5, 5, 5);
+        font-size: 30px;
+    }
+    .fb {
+        margin-left: -17px;
+    }
+    .sb {
+        margin-left: -5px;
+    }
+    .tb {
+        margin-left: -9px;
+    }
+    hr {
+       
+        width: ;
+        color: rgb(146, 0, 0);
+        opacity: 1;
+        margin-left: ;
+    }
+    p {
+        color: rgb(0, 0, 0);
+        white-space: pre; 
+        font-size: 18px;
+    }
+    button {
+      display: inline-block;
+      padding: 5px 10px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      color: rgb(245, 243, 243);
+      background-color: #000000;
+      transition: background-color 0.3s ease;
+      
+    }
+    h3 {
+        color: rgb(150, 17, 17);
+    }
+    button:hover {
+      background-color: rgb(143, 34, 34);
+      color: rgb(119, 119, 119);
+    }
+    .botao{
+        position: relative;
+      left: -125px;
+      background-color: white;
+      color: rgb(143, 34, 34);
+    }
+    .bottao {
+        position: relative;
+      left: 130px;
+    }
+    h3 {
+        position: relative;
+        top: 5px;
+    }
+    #xl {
+        position: relative;
+        top: 16px;
+    }
+    select {
+        border-radius: 5px;
+    }
+    
 
